@@ -13,7 +13,7 @@ from googleapiclient.discovery import build
 import isodate
 import pyperclip
 
-api_key = 'AIzaSyCPHhIm1HjYdSpzieq7nszCMoqnfrvWsCU'
+api_key = 'API KEY'
 youtube = build('youtube', 'v3', developerKey=api_key)
 video_list = []
 recomand_video_list = []
